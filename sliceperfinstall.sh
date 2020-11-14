@@ -15,8 +15,8 @@ mv sliceperfmon.service /etc/systemd/system/sliceperfmon.service
 
 
 
-enable sliceperfmon.service
-start sliceperfmon.service
+systemctl enable sliceperfmon.service
+systemctl start sliceperfmon.service
 
-enable sliceperfcompress.service
-start sliceperfcompress.service
+systemctl enable sliceperfcompress.service
+systemctl start sliceperfcompress.service
