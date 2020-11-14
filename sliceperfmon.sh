@@ -22,4 +22,4 @@ echo " " >> /opt/sliceup/stats/$file
 top -b -o %MEM -n 1 | head -n 17 >> /opt/sliceup/stats/$file
 
 
-#sleep 60
+sleep 60
