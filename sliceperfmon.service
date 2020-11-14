@@ -1,0 +1,10 @@
+[Unit]
+Description=Slice Performance Monitor
+
+[Service]
+Restart=always
+RestartSec=3
+ExecStart=/opt/sliceup/scripts/sliceperfmon.sh
+
+[Install]
+WantedBy=multi-user.target

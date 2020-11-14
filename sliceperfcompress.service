@@ -1,0 +1,10 @@
+[Unit]
+Description=Slice Performance Compress
+
+[Service]
+Restart=always
+RestartSec=3
+ExecStart=/opt/sliceup/scripts/sliceperfcompress.sh
+
+[Install]
+WantedBy=multi-user.target
